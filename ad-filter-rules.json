@@ -1,10 +1,10 @@
 {
-  "version": "3.3.0",
-  "lastUpdate": "2026-09-19T00:00:00Z",
+  "version": "3.4.4",
+  "lastUpdate": "2026-11-14T00:00:00Z",
   "domains": {
     "missav": "missav.ai",
     "jable": "jable.tv",
-    "rou_video": "rouva8.xyz",
+    "rou_video": "rouvb1.xyz",
     "avjoy": "avjoy.me",
     "7mmtv": "7mmtv.sx",
     "avple": "avple.tv",
@@ -75,7 +75,11 @@
       "creative.19sex.live",
       "realsrv.com",
       "labadena.com",
-      "go.mavrtracktor.com"
+      "go.mavrtracktor.com",
+      "adxadserv.com",
+      "newtemizdom.com",
+      "onclckmn.com",
+      "greentrafsa.com"
     ],
     "networkBlock": [
       "sunnycloudstone.com"
@@ -258,6 +262,122 @@
           },
           {
             "selector": "a[href*=\"/api/hop/\"]"
+          },
+          {
+            "selector": "a:has(img[src*=\"czM6Ly9yb3VwdWIvYWRjcy\"])"
+          },
+          {
+            "selector": "img[src*=\"czM6Ly9yb3VwdWIvYWRjcy\"]"
+          },
+          {
+            "selector": "a:has(img[src*=\"czM6Ly9yb3VwdWIvYWR2ZXJ0aXNlci1hc3NldHM\"])"
+          },
+          {
+            "selector": "img[src*=\"czM6Ly9yb3VwdWIvYWR2ZXJ0aXNlci1hc3NldHM\"]"
+          }
+        ]
+      },
+      "rouvb1.xyz": {
+        "requestBlock": [
+          {
+            "hostSuffix": "rouvb1.xyz",
+            "pathPrefix": "/api/hop/"
+          },
+          {
+            "hostSuffix": "v.rn252.xyz",
+            "urlContains": "czM6Ly9yb3VwdWIvYWRjcy"
+          },
+          {
+            "hostSuffix": "v.rn252.xyz",
+            "urlContains": "czM6Ly9yb3VwdWIvYWR2ZXJ0aXNlci1hc3NldHM"
+          },
+          {
+            "hostSuffix": "rouvb1.xyz",
+            "pathEquals": "/js/clickadu.js"
+          },
+          {
+            "hostSuffix": "magsrv.com"
+          },
+          {
+            "hostSuffix": "tsyndicate.com"
+          }
+        ],
+        "navigationBlock": [
+          {
+            "hostSuffix": "rouvb1.xyz",
+            "pathPrefix": "/api/hop/"
+          }
+        ],
+        "domRemove": [
+          {
+            "selector": "div:has(> a[href*=\"/api/hop/\"])"
+          },
+          {
+            "selector": "a[href*=\"/api/hop/\"]"
+          },
+          {
+            "selector": "a:has(img[src*=\"czM6Ly9yb3VwdWIvYWRjcy\"])"
+          },
+          {
+            "selector": "img[src*=\"czM6Ly9yb3VwdWIvYWRjcy\"]"
+          },
+          {
+            "selector": "a:has(img[src*=\"czM6Ly9yb3VwdWIvYWR2ZXJ0aXNlci1hc3NldHM\"])"
+          },
+          {
+            "selector": "img[src*=\"czM6Ly9yb3VwdWIvYWR2ZXJ0aXNlci1hc3NldHM\"]"
+          }
+        ]
+      },
+      "rou.video": {
+        "requestBlock": [
+          {
+            "hostSuffix": "rou.video",
+            "pathPrefix": "/api/hop/"
+          },
+          {
+            "hostSuffix": "v.rn252.xyz",
+            "urlContains": "czM6Ly9yb3VwdWIvYWRjcy"
+          },
+          {
+            "hostSuffix": "v.rn252.xyz",
+            "urlContains": "czM6Ly9yb3VwdWIvYWR2ZXJ0aXNlci1hc3NldHM"
+          },
+          {
+            "hostSuffix": "rou.video",
+            "pathEquals": "/js/clickadu.js"
+          },
+          {
+            "hostSuffix": "magsrv.com"
+          },
+          {
+            "hostSuffix": "tsyndicate.com"
+          }
+        ],
+        "navigationBlock": [
+          {
+            "hostSuffix": "rou.video",
+            "pathPrefix": "/api/hop/"
+          }
+        ],
+        "domRemove": [
+          {
+            "selector": "div:has(> a[href*=\"/api/hop/\"])"
+          },
+          {
+            "selector": "a[href*=\"/api/hop/\"]"
+          },
+          {
+            "selector": "a:has(img[src*=\"czM6Ly9yb3VwdWIvYWRjcy\"])"
+          },
+          {
+            "selector": "img[src*=\"czM6Ly9yb3VwdWIvYWRjcy\"]"
+          },
+          {
+            "selector": "a:has(img[src*=\"czM6Ly9yb3VwdWIvYWR2ZXJ0aXNlci1hc3NldHM\"])"
+          },
+          {
+            "selector": "img[src*=\"czM6Ly9yb3VwdWIvYWR2ZXJ0aXNlci1hc3NldHM\"]"
           }
         ]
       },
