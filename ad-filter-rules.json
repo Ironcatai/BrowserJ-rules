@@ -1,6 +1,6 @@
 {
-  "version": "3.4.4",
-  "lastUpdate": "2026-11-14T00:00:00Z",
+  "version": "3.4.5",
+  "lastUpdate": "2026-11-20T00:00:00Z",
   "domains": {
     "missav": "missav.ai",
     "jable": "jable.tv",
@@ -90,6 +90,30 @@
     ],
     "redirectBlock": [],
     "siteRules": {
+      "missav.ai": {
+        "requestBlock": [
+          { "hostSuffix": "go.mayzaent.com" }
+        ],
+        "domRemove": [
+          { "selector": "iframe[src*=\"go.mayzaent.com\"]" }
+        ]
+      },
+      "missav.ws": {
+        "requestBlock": [
+          { "hostSuffix": "go.mayzaent.com" }
+        ],
+        "domRemove": [
+          { "selector": "iframe[src*=\"go.mayzaent.com\"]" }
+        ]
+      },
+      "jable.tv": {
+        "requestBlock": [
+          { "hostSuffix": "go.mnaspm.com" }
+        ],
+        "domRemove": [
+          { "selector": "iframe[src*=\"go.mnaspm.com\"]" }
+        ]
+      },
       "avtoday.io": {
         "allowRequests": [
           {
@@ -155,6 +179,9 @@
       "7mmtv.sx": {
         "requestBlock": [
           {
+            "hostSuffix": "whitetrafsa.com"
+          },
+          {
             "hostSuffix": "creative.19sex.live"
           },
           {
@@ -182,6 +209,9 @@
           }
         ],
         "domRemove": [
+          {
+            "selector": "iframe[src*=\"whitetrafsa.com\"]"
+          },
           {
             "selector": "iframe[src*=\"creative.19sex.live\"]"
           },
